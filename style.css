@@ -375,7 +375,7 @@ footer {
 @media only screen and (max-width: 846px) {
 
     .hero-text-container{
-        top: 14vh;
+        top: 11vh;
     }
 
 }
@@ -403,12 +403,26 @@ footer {
         margin: 0 1em;
         font-size: 0.8rem;
     }
+
+    #about-main-text{
+        margin: 0 1em;
+    }
+    
+}
+
+@media only screen and (max-width: 660px) {
+
+    .missionArticle p{
+        margin-bottom: 2em;
+        line-height: 3rem;
+    }
+
 }
 
 @media only screen and (max-width: 643px) {
 
     .hero-text-container{
-        top: 14vh;
+        top: 10.5vh;
         font-size: 2.313rem;
     }
     #hero-quote{
@@ -450,28 +464,40 @@ footer {
     #mobile-socials{
         gap: 1em;
     }
-    
+
 }
 
 @media only screen and (max-width: 462px) {
 
     .hero-text-container{
-        top: 16vh;
-        font-size: 2rem;
+        top: 7.5vh;
+        font-size: 1.825rem;
     }
     #hero-quote{
         font-size: 1rem;
+    }
+
+    .buttons{
+        flex-flow: column nowrap;
     }
 }
 
 @media only screen and (max-width: 402px) {
 
     .hero-text-container{
-        top: 11vh;
+        top: 8.5vh;
         font-size: 1.825rem;
     }
     #hero-quote{
         font-size: 0.880rem;
+    }
+
+    .textWrapper{
+        max-width: 90%;
+    }
+
+    #about-main-text{
+        margin: 0 0.7em;
     }
 }
 
@@ -512,11 +538,10 @@ footer {
     }
 }
 
-@media only screen and (max-height: 846px) and (max-width: 100px) {
+@media only screen and (max-height: 813px) and (max-width: 100px) {
     .hero-text-container {
         top: 21vh;
         font-size: 1.125rem;
     }
 }
 
-    
